@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "path": "..\\complete-javascript-course-master"
+    },
+    {
+      "path": "..\\Data from d\\complete-javascript-course-master\\complete-javascript-course-master\\9-forkify\\final"
+    },
+    {
+      "path": "..\\webresume2.0"
+    },
+    {
+      "path": "..\\react-stuff"
+    },
+    {
+      "path": "..\\stuff"
+    },
+    {
+      "path": "..\\dad-site-ts"
+    },
+    {
+      "path": "..\\webresume3.1"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\Data from d\\complete-javascript-course-master\\complete-javascript-course-master\\9-forkify"
+    },
+    {
+      "path": "..\\webappresume3.3"
+    }
+  ],
+  "settings": {
+    "debug.internalConsoleOptions": "neverOpen",
+    "python.pythonPath": "C:\\Users\\jacob\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "git.ignoreLimitWarning": true
+  }
+}
