@@ -145,8 +145,14 @@ const KeyboardKey = ({ sound: { key, url, keyCode }, play }) => {
   );
 };
 
-const Keyboard = ({ play, sounds }) => {
-  return sounds.map((sound) => <KeyboardKey sound={sound} play={play} />);
+const Keyboard = ({ play, sounds, id }) => {
+  return (
+    <div id={id}>
+      {sounds.map((sound) => (
+        <KeyboardKey sound={sound} play={play} />
+      ))}
+    </div>
+  );
 };
 
 const DrumControl = ({ changeSoundsGroup }) => (
@@ -177,9 +183,11 @@ const DrumMachine = () => {
 
   return (
     <Wrapper>
-      <Keyboard play={play} sounds={sounds} />
-      <DrumControl changeSoundsGroup={changeSoundsGroup} />
-      <div>{soundType}</div>
+      <Keyboard id="keyboard" play={play} sounds={sounds} />
+      <div id="keyboard-controls">
+        <DrumControl changeSoundsGroup={changeSoundsGroup} />
+        <div>{soundType}</div>
+      </div>
     </Wrapper>
   );
 };

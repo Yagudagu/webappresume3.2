@@ -1,18 +1,8 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  body {
-    background-color: #143f6b;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-  }
-
   .piano-container {
     display: flex;
-    padding: 20vh 30vw;
   }
 
   .key {
@@ -57,4 +47,12 @@ export const Wrapper = styled.div`
     border: 2px solid black;
     border-radius: 20px;
   }
+`;
+
+export const Grid = styled.div`
+  margin: 0 auto;
+  padding: 2rem 2.5vw;
+  display: grid;
+  grid-template-columns: 55vw 45vw;
+  grid-column-gap: 5vw;
 `;

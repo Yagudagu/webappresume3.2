@@ -2,7 +2,7 @@ import React from "react";
 import { HashLink } from "react-router-hash-link";
 import Drums from "../Drums";
 
-import { Wrapper } from "./MusicApp.styles";
+import { Wrapper, Grid } from "./MusicApp.styles";
 
 const Tone = require("tone");
 
@@ -85,69 +85,71 @@ export default class MusicApp extends React.Component {
         <HashLink className="return-to-main" to="/">
           Back to the main page
         </HashLink>
-        <div className="piano-container">
-          <div
-            id="C4"
-            className="key white"
-            onClick={() => playNoteClick("C4")}
-          />
-          <div
-            id="Db4"
-            className="key black"
-            onClick={() => playNoteClick("Db4")}
-          />
-          <div
-            id="D4"
-            className="key white"
-            onClick={() => playNoteClick("D4")}
-          />
-          <div
-            id="Eb4"
-            className="key black"
-            onClick={() => playNoteClick("Eb4")}
-          />
-          <div
-            id="E4"
-            className="key white"
-            onClick={() => playNoteClick("E4")}
-          />
-          <div
-            id="F4"
-            className="key white"
-            onClick={() => playNoteClick("F4")}
-          />
-          <div
-            id="Gb4"
-            className="key black"
-            onClick={() => playNoteClick("Gb4")}
-          />
-          <div
-            id="G4"
-            className="key white"
-            onClick={() => playNoteClick("G4")}
-          />
-          <div
-            id="Ab4"
-            className="key black"
-            onClick={() => playNoteClick("Ab4")}
-          />
-          <div
-            id="A4"
-            className="key white"
-            onClick={() => playNoteClick("A4")}
-          />
-          <div
-            id="Bb4"
-            className="key black"
-            onClick={() => playNoteClick("Bb4")}
-          />
-          <div
-            id="B4"
-            className="key white"
-            onClick={() => playNoteClick("B4")}
-          />
-        </div>
-        <Drums />
+        <Grid>
+          <div className="piano-container">
+            <div
+              id="C4"
+              className="key white"
+              onClick={() => playNoteClick("C4")}
+            />
+            <div
+              id="Db4"
+              className="key black"
+              onClick={() => playNoteClick("Db4")}
+            />
+            <div
+              id="D4"
+              className="key white"
+              onClick={() => playNoteClick("D4")}
+            />
+            <div
+              id="Eb4"
+              className="key black"
+              onClick={() => playNoteClick("Eb4")}
+            />
+            <div
+              id="E4"
+              className="key white"
+              onClick={() => playNoteClick("E4")}
+            />
+            <div
+              id="F4"
+              className="key white"
+              onClick={() => playNoteClick("F4")}
+            />
+            <div
+              id="Gb4"
+              className="key black"
+              onClick={() => playNoteClick("Gb4")}
+            />
+            <div
+              id="G4"
+              className="key white"
+              onClick={() => playNoteClick("G4")}
+            />
+            <div
+              id="Ab4"
+              className="key black"
+              onClick={() => playNoteClick("Ab4")}
+            />
+            <div
+              id="A4"
+              className="key white"
+              onClick={() => playNoteClick("A4")}
+            />
+            <div
+              id="Bb4"
+              className="key black"
+              onClick={() => playNoteClick("Bb4")}
+            />
+            <div
+              id="B4"
+              className="key white"
+              onClick={() => playNoteClick("B4")}
+            />
+          </div>
+          <Drums />
+        </Grid>
       </Wrapper>
     );
   }
