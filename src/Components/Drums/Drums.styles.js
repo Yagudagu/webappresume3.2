@@ -19,6 +19,11 @@ export const Wrapper = styled.div`
 
   #keyboard-controls {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 0 0.5rem;
+  }
+
+  #sound-type {
+    border: 1px solid var(--medGrey);
+    border-radius: 5px;
   }
 `;

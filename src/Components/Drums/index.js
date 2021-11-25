@@ -186,7 +186,7 @@ const DrumMachine = () => {
       <Keyboard id="keyboard" play={play} sounds={sounds} />
       <div id="keyboard-controls">
         <DrumControl changeSoundsGroup={changeSoundsGroup} />
-        <div>{soundType}</div>
+        <div id="sound-type">{soundType}</div>
       </div>
     </Wrapper>
   );
