@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
 
   #keyboard-controls {
     text-align: center;
-    margin: 0 auto 0 0.5rem;
+    margin: 0.5rem;
   }
 
   #sound-type {
