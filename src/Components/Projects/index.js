@@ -22,7 +22,7 @@ const Projects = (props) => (
       </Content>
       <Content>
         <Link to="https://mobileclothes.org" className="btn">
-          Piano
+          Mobile Clothes
         </Link>
         <h3>
           This is a site I recently created for a local charity that provides
