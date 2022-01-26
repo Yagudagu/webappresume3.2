@@ -22,7 +22,7 @@ const Projects = (props) => (
       </Content>
       <Content>
         <a
-          href="https:www.mobileclothes.org"
+          href="https://www.mobileclothes.org"
           target="_blank"
           rel="noopener noreferrer"
           className="btn"
