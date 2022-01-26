@@ -21,9 +21,14 @@ const Projects = (props) => (
         </h3>
       </Content>
       <Content>
-        <Link to="https://mobileclothes.org" className="btn">
+        <a
+          href="https:www.mobileclothes.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
           Mobile Clothes
-        </Link>
+        </a>
         <h3>
           This is a site I recently created for a local charity that provides
           free clothing to immigrants in the Colorado Springs area. It's a
