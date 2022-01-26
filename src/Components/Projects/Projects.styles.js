@@ -55,7 +55,7 @@ export const Content = styled.div`
   }
 
   h3 {
-    padding: 20px 200px;
+    padding: 20px 20px;
     @media (max-width: 768px) {
       padding: 20px 10px;
     }
