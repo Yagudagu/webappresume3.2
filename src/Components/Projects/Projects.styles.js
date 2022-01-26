@@ -17,6 +17,10 @@ export const Wrapper = styled.div`
   grid-column-gap: 5%;
   padding: 0% 5% 10% 5%;
   background-color: var(--white);
+
+  @media (max-width: 768px) {
+    grid-template-columns: 90%;
+  }
 `;
 
 export const Content = styled.div`
@@ -58,7 +62,6 @@ export const Content = styled.div`
     padding: 20px 20px;
     @media (max-width: 768px) {
       padding: 20px 10px;
-      display: inline;
     }
   }
 `;
