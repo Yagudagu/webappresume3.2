@@ -13,8 +13,8 @@ export const HeadThingy = styled.div`
 export const Wrapper = styled.div`
   height: 92vh;
   display: grid;
-  grid-template-columns: 45% 45%;
-  grid-column-gap: 10%;
+  grid-template-columns: 22% 22% 22%;
+  grid-column-gap: 17%;
   padding: 0% 5% 10% 5%;
   background-color: var(--white);
 `;
