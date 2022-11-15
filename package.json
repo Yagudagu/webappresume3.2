@@ -1,48 +1,23 @@
 {
   "name": "webappresume3.2",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "history": "^5.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-ionicons": "^4.2.0",
-    "react-router": "^5.2.1",
-    "react-router-dom": "^5.3.0",
-    "react-router-hash-link": "^2.4.3",
-    "react-scripts": "4.0.3",
-    "smoothscroll-polyfill": "^0.4.4",
-    "spa-http-server": "^0.9.0",
-    "styled-components": "^5.3.3",
-    "tone": "^14.7.77",
-    "web-vitals": "^1.1.2"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postbuild": "copy .\\staticwebapp.config.json .\\build\\staticwebapp.config.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yagudagu/webappresume3.2.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yagudagu/webappresume3.2/issues"
+  },
+  "homepage": "https://github.com/Yagudagu/webappresume3.2#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
   }
 }
