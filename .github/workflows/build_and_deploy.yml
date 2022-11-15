@@ -34,7 +34,7 @@ jobs:
         working-directory: ./frontend
         run: npm run build
         env:
-          CI: "dev"
+          CI: ""
 
       # docker:
       #   runs-on: ubuntu-latest
