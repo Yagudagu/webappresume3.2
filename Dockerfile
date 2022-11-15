@@ -8,8 +8,8 @@ COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install --production
 
 COPY "app.js" .
-COPY "models/." ./models
-COPY "controllers/." ./controllers
+# COPY "models/." ./models
+# COPY "controllers/." ./controllers
 COPY "frontend/build/." ./frontend/build 
 
 ENV NODE_ENV=production
