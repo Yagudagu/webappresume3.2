@@ -7,10 +7,9 @@ const About = (props) => (
     <p id="first">
       I love building and fixing applications. I'm currently a Senior Customer
       Support Engineer for Oracle Cloud Infrastructure. Before that I was a
-      Technical Support Engineer for Azure App Services, Azure Functions, and
-      Azure Static Web Apps. I have a lot of experience with infrastructure and
-      networking. I mostly code in JS/TS and Python, but have worked with Java
-      and C# in the past.
+      Technical Support Engineer for Microsoft Azure. I have a lot of experience
+      with infrastructure and networking. I mostly code in JS/TS and Python, but
+      have worked with Java and C# in the past.
     </p>
 
     <p id="second">
