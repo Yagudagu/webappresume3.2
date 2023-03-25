@@ -35,7 +35,7 @@ const Projects = (props) => (
           portal that takes in requests for them.
         </h3>
       </Content>
-      <Content>
+      {/* <Content>
         <Link className="btn" to="/inspire">
           Inspirational Website
         </Link>
@@ -44,7 +44,7 @@ const Projects = (props) => (
           Something simple made trying to learn React, with some of the free
           apis that are available online.
         </h3>
-      </Content>
+      </Content> */}
     </Wrapper>
   </>
 );
