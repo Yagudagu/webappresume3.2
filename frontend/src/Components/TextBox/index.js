@@ -14,7 +14,12 @@ const TextBox = (props) => {
       <Content>
         {/* <h1 className="firstone">Jacob Martin</h1> */}
         <h1>Senior Cloud Support Engineer</h1>
-        <p>Welcome, my name is Jacob Martin and I'm a Cloud Engineer.</p>
+        <p>
+          Welcome, my name is Jacob Martin and I'm a Cloud Engineer for OCI and
+          I also make websites in my free time. I'm interested software
+          engineering jobs, so please check out my resume and some of my other
+          work below. You'd be a fool not to pick me!
+        </p>
       </Content>
       <div id="pictureOfMe">
         <PicWrap>
