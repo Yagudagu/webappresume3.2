@@ -31,7 +31,7 @@ export const Content = styled.div`
   }
 
   .con_box:hover {
-    background-color: var(--lightGrey);
+    color: var(--lightGrey);
   }
 
   .con_box > * {
