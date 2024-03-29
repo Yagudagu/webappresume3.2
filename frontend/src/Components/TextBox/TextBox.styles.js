@@ -2,26 +2,30 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   height: 92vh;
-
   display: grid;
+  justify-content: center;
   grid-template-columns: 45% 45%;
   grid-column-gap: 10%;
   padding: 0% 5% 10% 5%;
   background-color: var(--white);
 
-  @media (max-width: 400px) {
+  @media (max-width: 768px) {
     padding: 0% 3% 10% 3%;
     display: initial;
+
+    #pictureOfMe {
+      margin-left: 10%;
+    }
   }
   p {
     color: var(--darkGrey);
     font-size: 25px;
   }
 
-  #photo {
-    width: 200px;
-    margin: 100px 0 0 60px;
-  }
+  // #photo {
+  //   width: 200px;
+  //   margin: 100px 0 0 60px;
+  // }
 
   #pictureOfMe {
     text-align: center;
@@ -69,12 +73,12 @@ export const Picture = styled.img`
   height: 300px;
   width: 100%;
 
-  @media (max-width: 768px) {
-    height: 300px;
+  @media (max-width: 1300px) {
+    height: 200px;
   }
 
-  @media (max-width: 400px) {
-    height: 200px;
+  @media (max-width: 778px) {
+    height: 100px;
   }
 `;
 
@@ -98,5 +102,9 @@ export const PicWrap = styled.div`
 
   .fit {
     width: 100%;
+  }
+
+  @media (max-width: 778px) {
+    height: 100px;
   }
 `;

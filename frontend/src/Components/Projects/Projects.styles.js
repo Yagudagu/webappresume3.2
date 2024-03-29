@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: 90%;
+    margin-top: 10rem;
   }
 `;
 
@@ -19,7 +20,7 @@ export const Content = styled.div`
   vertical-align: middle;
 
   @media (max-width: 768px) {
-    padding: 10px 0px;
+    padding: 0px 0px;
   }
 
   .btn {
@@ -61,8 +62,14 @@ export const Content = styled.div`
     border-style: solid;
     border-radius: 1rem;
     text-decoration: none;
+    display: block;
     color: var(--medGray);
     padding: 1rem;
+
+    @media (max-width: 768px) {
+      margin-top: 5rem;
+      font-size: 10px;
+    }
   }
 
   .rez_button:hover {
