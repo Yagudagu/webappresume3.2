@@ -70,15 +70,15 @@ export const Picture = styled.img`
   border-style: solid;
   border-width: 0.2rem;
   border-radius: 10px;
-  height: 300px;
+  height: 280px;
   width: auto;
 
   @media (max-width: 1300px) {
     height: 200px;
   }
 
-  @media (max-width: 778px) {
-    height: 100px;
+  @media (max-width: 940px) {
+    height: 150px;
   }
 `;
 
@@ -87,6 +87,7 @@ export const PicWrap = styled.div`
   border-width: 0.2rem;
   border-radius: 10px;
   background-color: var(--darkGrey);
+  width: 590px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0px;
@@ -100,11 +101,15 @@ export const PicWrap = styled.div`
     grid-column-end: -1;
   }
 
-  // .fit {
-  //   width: 100%;
-  // }
+  .fit {
+    width: 100%;
+  }
 
-  @media (max-width: 778px) {
-    height: 100px;
+  @media (max-width: 1300px) {
+    width: 426px;
+  }
+
+  @media (max-width: 940px) {
+    width: 322px;
   }
 `;

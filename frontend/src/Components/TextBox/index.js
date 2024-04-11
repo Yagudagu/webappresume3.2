@@ -23,6 +23,7 @@ const TextBox = (props) => {
       </Content>
       <div id="pictureOfMe">
         <PicWrap>
+          <Picture className="" src={four} alt="how vain is this man?" />
           <Picture
             className=""
             src={myPicture}
@@ -33,13 +34,12 @@ const TextBox = (props) => {
             src={three}
             alt="another selfie, enough is enough!"
           />
-          <Picture className="fit" src={one} alt="me in front of a statue" />
           <Picture
             className="wider"
             src={two}
             alt="me in front of a nice view"
           />
-          <Picture className="fit" src={four} alt="how vain is this man?" />
+          <Picture className="" src={one} alt="me in front of a statue" />
         </PicWrap>
       </div>
     </Wrapper>
