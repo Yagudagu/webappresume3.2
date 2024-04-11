@@ -25,7 +25,7 @@ const Projects = (props) => (
         <h3>
           This is a site that I built and maintain for a local charity that my
           mom works with in Colorado Springs. It's an order form and I'm also
-          build an admin portal with a database catalog for them.
+          building an admin portal with a database catalog for them.
         </h3>
       </Content>
     </Wrapper>
