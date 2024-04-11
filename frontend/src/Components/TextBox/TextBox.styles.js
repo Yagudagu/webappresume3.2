@@ -71,7 +71,7 @@ export const Picture = styled.img`
   border-width: 0.2rem;
   border-radius: 10px;
   height: 300px;
-  width: 100%;
+  width: auto;
 
   @media (max-width: 1300px) {
     height: 200px;
@@ -88,7 +88,7 @@ export const PicWrap = styled.div`
   border-radius: 10px;
   background-color: var(--darkGrey);
   display: grid;
-  grid-template-columns: auto auto 34%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0px;
 
   .wider {
@@ -100,9 +100,9 @@ export const PicWrap = styled.div`
     grid-column-end: -1;
   }
 
-  .fit {
-    width: 100%;
-  }
+  // .fit {
+  //   width: 100%;
+  // }
 
   @media (max-width: 778px) {
     height: 100px;
